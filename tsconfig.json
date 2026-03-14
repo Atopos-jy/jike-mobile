@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    "baseUrl": "./", // 基础路径为项目根目录
+    "paths": {
+      "@/*": ["src/*"] // 核心：@/xxx 映射到 src/xxx
+    },
+    "skipLibCheck": true
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
