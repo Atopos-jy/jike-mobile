@@ -42,5 +42,5 @@ type ReqParams = {
   timestamp: string;
 };
 export function fetchListAPI(params: ReqParams): Promise<ApiResponse<ListRes>> {
-  return http.get("/channels", params);
+  return http.get("/articles", params);
 }
